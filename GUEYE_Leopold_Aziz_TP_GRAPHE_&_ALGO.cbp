@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GUEYE_Leopold_Aziz_TP_GRAPHE_&amp;_ALGO" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\GUEYE_Leopold_Aziz_TP_GRAPHE_&amp;_ALGO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\GUEYE_Leopold_Aziz_TP_GRAPHE_&amp;_ALGO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Graphe_Liste.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Graphe_Liste.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Graphe_Matrice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Graphe_Matrice.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Parcours_Largeur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Parcours_Largeur.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Parcours_Profondeur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Parcours_Profondeur.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
